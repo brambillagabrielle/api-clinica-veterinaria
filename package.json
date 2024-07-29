@@ -1,0 +1,36 @@
+{
+  "name": "api-clinica-veterinaria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test:pacientes": "mocha './test/pacientes.js'",
+    "test:consultas": "mocha './test/consultas.js'",
+    "test:usuarios": "mocha './test/usuarios.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^9.1.0",
+    "expect": "^29.7.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.12.0",
+    "save-dev": "^0.0.1-security",
+    "sequelize": "^6.37.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
